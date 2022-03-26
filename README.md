@@ -1,5 +1,5 @@
 # Music Recommendation Engine via Graph Network
-##Abstract
+## Abstract
 Music recommendation engines are giant, lumbering programs designed to suggest
 similar artists based off other artists. A straightforward approach will be taken to replace the
 cumbersome calculations of a recommendation engine with that of a graph network. This
