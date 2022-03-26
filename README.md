@@ -25,4 +25,4 @@ network we can immediately see the connections between two artists without calcu
 anything. If a medium sized graph network can return similar results to a large recommendation
 engine such as Spotify, then it begs the question as to why they aren’t using graph networks.
 
-
+![Screenshot](./images/bokeh_plot.png)
