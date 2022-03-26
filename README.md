@@ -1,7 +1,7 @@
 # Music Recommendation Engine via Graph Network
 ## Abstract
 
- #⇥ Music recommendation engines are giant, lumbering programs designed to suggest
+- Music recommendation engines are giant, lumbering programs designed to suggest
 similar artists based off other artists. A straightforward approach will be taken to replace the
 cumbersome calculations of a recommendation engine with that of a graph network. This
 network will start with a base artist, in this case Metallica, with the nodes being those bands
@@ -9,7 +9,7 @@ which influenced Metallica and the subsequent nodes consisting of artists who in
 band, etc. Using simple network analysis, we will then return a list of similar artists.
 ## Introduction
 
- ⇥ Recommendations are complex process involving many moving parts and even more
+*Recommendations are complex process involving many moving parts and even more
 data. Netflix, Spotify, and other steaming services all use recommendation engines on their
 platforms. Netflix and other video streaming services can change the image of the content to
 better align with the classification of the content. Music services on the other hand cannot change
