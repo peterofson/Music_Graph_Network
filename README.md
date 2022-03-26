@@ -1,13 +1,15 @@
 # Music Recommendation Engine via Graph Network
 ## Abstract
-Music recommendation engines are giant, lumbering programs designed to suggest
+
+  Music recommendation engines are giant, lumbering programs designed to suggest
 similar artists based off other artists. A straightforward approach will be taken to replace the
 cumbersome calculations of a recommendation engine with that of a graph network. This
 network will start with a base artist, in this case Metallica, with the nodes being those bands
 which influenced Metallica and the subsequent nodes consisting of artists who influenced that
 band, etc. Using simple network analysis, we will then return a list of similar artists.
-##Introduction
-Recommendations are complex process involving many moving parts and even more
+## Introduction
+
+  Recommendations are complex process involving many moving parts and even more
 data. Netflix, Spotify, and other steaming services all use recommendation engines on their
 platforms. Netflix and other video streaming services can change the image of the content to
 better align with the classification of the content. Music services on the other hand cannot change
@@ -20,11 +22,11 @@ recommendation process. From counting the number of unique words in a song, anal
 album covers and comparing attributes like beats per minutes (BPM), energy and loudness. All
 these algorithms have one thing in common, they require tons of calculations. With a graph
 network we can immediately see the connections between two artists without calculating
-2
 anything. If a medium sized graph network can return similar results to a large recommendation
 engine such as Spotify, then it begs the question as to why they aren’t using graph networks.
-##Literature Review
-Many studies and articles have been written when it comes to the classification of music
+
+## Literature Review
+  Many studies and articles have been written when it comes to the classification of music
 genres, be it a binary, multi-class, or multi-label problem. The methods vary from study to study.
 Some are using recurrent neural networks (RNN’s) to analyze small audio samples from songs
 while others are leveraging the images of album covers with convolutional neural networks
@@ -38,7 +40,7 @@ image data achieved an accuracy of 75% while the model that used audio data had 
 of 80%. The text model had twenty-five million parameters compared to six million for audio
 and two million for the image model. Clearly there was more information in the text than in the
 audio or images.
-In the world of deep learning usually more data is always better; it prevents the
+  In the world of deep learning usually more data is always better; it prevents the
 possibility of overfitting, increases the model’s robustness, and decreases its bias to a healthy
 margin (Goodfellow, Bengio, and Courville, 2017). Dammann and Haugh (2017) constructed a
 bag of words for each genre which consisted of unique words and the number of times they were
